@@ -72,9 +72,6 @@ The following roles can be installed to ensure all requirements are met, using `
 
 This role is a part of many compatible roles.
 
-Here is an overview of related roles:
-![dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/bootstrap.png "Dependency")
-
 ## Compatibility
 
 This role has been tested on these [container images](https://hub.docker.com/):
