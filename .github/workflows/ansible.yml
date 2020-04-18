@@ -70,7 +70,7 @@ jobs:
       - name: ls
         run: ls -alR
       - name: molecule
-        uses: robertdebock/molecule-action@2.0.0
+        uses: gofrolist/molecule-action@master
         with:
           image: ${{ matrix.config.image }}
           tag: ${{ matrix.config.tag }}
