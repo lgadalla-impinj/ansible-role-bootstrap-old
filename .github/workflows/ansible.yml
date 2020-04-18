@@ -64,14 +64,11 @@ jobs:
       - name: parse apparmor for mysql
         run: sudo apparmor_parser -R /etc/apparmor.d/usr.sbin.mysqld
       - name: whoami
-        uses: jdickey/bash@master
-        args: ["whoami"]
+        run: whoami
       - name: pwd
-        uses: jdickey/bash@master
-        args: ["pwd"]
+        run: pwd
       - name: ls
-        uses: jdickey/bash@master
-        args: ["ls -alR"]        
+        run: ls -alR
       - name: molecule
         uses: robertdebock/molecule-action@2.0.0
         with:
